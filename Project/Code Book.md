@@ -53,7 +53,7 @@ The script run_analysis.R performs the following process to clean up the data an
     trainLabel - table contents of train/y_train.txt
     dtlabel - Data Labels. Combined data set of the two above variables.
     features - Names of for data columns derived from featuresList
-    dtMeanStd - Data set contain only Mean and Std of training and test data set
+    dtMeanStd - Data set contains only Mean and Std of training and test data set
     activityLabel - table contents of activity_labels.txt. Human readable
     cleanData - subsetted, human-readable data ready for output according to project description.
     avgDataset - data set with the average of each variable for each activity and each subject.

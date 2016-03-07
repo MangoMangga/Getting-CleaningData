@@ -1,3 +1,3 @@
 # Getting and CleaningData
 
-Read the readme.md file in the indivdual folder
+Read the readme.md file in the individual folder

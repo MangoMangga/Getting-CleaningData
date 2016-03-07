@@ -9,8 +9,10 @@
     Here are the data for the project:
 
     https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
     
 # Instruction Of Project
+
     
     You should create one R script called run_analysis.R that does the following.
 
@@ -20,7 +22,9 @@
         4. Appropriately labels the data set with descriptive activity names.
         5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+
 # run_analys.R
+
 
 What the script does are :
 
@@ -30,8 +34,7 @@ What the script does are :
    Merges data labels into one data set
    Merges data subject into one data set
    
-3. Extracts only the measurements on the mean and standard deviation for each measurement in training and test set
-   based on features.txt  
+3. Extracts only the measurements on the mean and standard deviation for each measurement in training and test set based on features.txt  
    
 4. Load text file of descriptive activity names and then Name the activities in data labels
 

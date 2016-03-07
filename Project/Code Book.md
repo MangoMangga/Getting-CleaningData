@@ -16,10 +16,6 @@ Citation Request
 
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
-http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
-
-
-Overview
 
 Source of the original data:
 
@@ -47,25 +43,20 @@ The script run_analysis.R performs the following process to clean up the data an
 
 Variables
 
-    testData - table contents of test/X_test.txt
-    trainData - table contents of train/X_train.txt
+    testset - table contents of test/X_test.txt
+    trainset - table contents of train/X_train.txt
     dtset - Measurement data. Combined data set of the two above variables
-    testSub - table contents of test/subject_test.txt
-    trainSub - table contents of test/subject_train.txt
+    subjtest - table contents of test/subject_test.txt
+    subjtrain - table contents of test/subject_train.txt
     dtsubj - Subjects. Combined data set of the two above variables
     testLabel - table contents of test/y_test.txt
     trainLabel - table contents of train/y_train.txt
     dtlabel - Data Labels. Combined data set of the two above variables.
-    featuresList - table contents of features.txt
     features - Names of for data columns derived from featuresList
-    keepColumns - logical vector of which features to use in tidy data set
-    activities - table contents of activity_labels.txt. Human readable
-    tidyData - subsetted, human-readable data ready for output according to project description.
-    uS - unique subjects from S
-    nS - number of unique subjects
-    nA - number of activities
-    nC - number of columns in tidyData
-    td - second tiny data set with average of each variable for each activity and subject
+    dtMeanStd - Data set contain only Mean and Std of training and test data set
+    activityLabel - table contents of activity_labels.txt. Human readable
+    cleanData - subsetted, human-readable data ready for output according to project description.
+    avgDataset - data set with the average of each variable for each activity and each subject.
 
 Output
 TidyData.txt

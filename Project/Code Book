@@ -49,13 +49,13 @@ Variables
 
     testData - table contents of test/X_test.txt
     trainData - table contents of train/X_train.txt
-    X - Measurement data. Combined data set of the two above variables
+    dtset - Measurement data. Combined data set of the two above variables
     testSub - table contents of test/subject_test.txt
     trainSub - table contents of test/subject_train.txt
-    S - Subjects. Combined data set of the two above variables
+    dtsubj - Subjects. Combined data set of the two above variables
     testLabel - table contents of test/y_test.txt
     trainLabel - table contents of train/y_train.txt
-    Y - Data Labels. Combined data set of the two above variables.
+    dtlabel - Data Labels. Combined data set of the two above variables.
     featuresList - table contents of features.txt
     features - Names of for data columns derived from featuresList
     keepColumns - logical vector of which features to use in tidy data set
